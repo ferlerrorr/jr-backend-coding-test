@@ -28,3 +28,39 @@ A product needs to have the following information:
 
 ## Optional (for bonus points)
 - Say for example, we need a feature where we can display featured products. How would you go about implementing this feature? (You don't need to write code for this, just describe how would you implement it)
+
+
+## TODO
+--USER--
+
+POST
+-create users param(name|max:255,  email|email,  email_verified_at|timestamp,  password,  remember_token|Url?,  created_at|timestamp,  updated_at|timestamp) 
+
+POST
+-signin users param(email|email,  password,)
+
+POST
+-forgot password param(email|email, remember_token|Url?, created_at|timestamp)
+
+--USER--
+
+--PRODUCT--
+
+POST
+-create product param(name|max:255,	 description,	price|numeric 2 decimals, 	created_at,	updated_a,) 
+
+GET
+-search product param(product_id or product_name)
+
+GET
+-search * product()
+
+--PRODUCT--
+
+
+--ERROR HANDLING--
+
+POST
+-failed_jobs param(uuid,  connection,	queue,	payload	exception,	failed_at|timestamp)
+
+--ERROR HANDLING--
