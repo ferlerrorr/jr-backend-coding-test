@@ -14,7 +14,7 @@ class ProductController extends Controller
     public function index()
     {
         //
-        $products = Product::all();
+        $products = Product::paginate(5);
         foreach($products as $product){
           $product->view_product = [
                 'href' => 'api/v1/product/1', //  . $product->id,
