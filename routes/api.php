@@ -14,4 +14,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::apiResource('products', \App\Http\Controllers\ProductController::class)->only(['index', 'show', 'store']);
+Route::group(['prefix'=>'/v1'],function() {
+
+    Route::apiResource('products', \App\Http\Controllers\ProductController::class)->only(['index', 'show', 'store']);
+
+    //OR
+
+    // Route::resource('products','App\Http\Controllers\ProductController',['only' =>['index', 'show', 'store']]);
+
+});
+

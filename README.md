@@ -31,18 +31,6 @@ A product needs to have the following information:
 
 
 ## TODO
---USER--
-
-POST
--create users param(name|max:255,  email|email,  email_verified_at|timestamp,  password,  remember_token|Url?,  created_at|timestamp,  updated_at|timestamp) 
-
-POST
--signin users param(email|email,  password,)
-
-POST
--forgot password param(email|email, remember_token|Url?, created_at|timestamp)
-
---USER--
 
 --PRODUCT--
 
@@ -58,9 +46,24 @@ GET
 --PRODUCT--
 
 
---ERROR HANDLING--
+
+
+ - Removed auto generated
+<!-- --USER-- -->
+<!-- POST
+-create users param(name|max:255,  email|email,  email_verified_at|timestamp,  password,  remember_token|Url?,  created_at|timestamp,  updated_at|timestamp)  -->
+
+<!-- POST
+-signin users param(email|email,  password,) -->
+
+<!-- POST
+-forgot password param(email|email, remember_token|Url?, created_at|timestamp) -->
+
+<!-- --USER-- -->
+
+<!-- --ERROR HANDLING--
 
 POST
 -failed_jobs param(uuid,  connection,	queue,	payload	exception,	failed_at|timestamp)
 
---ERROR HANDLING--
+--ERROR HANDLING-- -->
