@@ -1,4 +1,4 @@
-# iThinkWeb Backend developer coding test
+#Backend developer coding test
 
 ## Task
 You're tasked to create a simple REST web service application for an e-commerce app using Laravel.
