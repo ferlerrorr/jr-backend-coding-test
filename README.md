@@ -1,5 +1,3 @@
-#Backend developer coding test
-
 ## Task
 You're tasked to create a simple REST web service application for an e-commerce app using Laravel.
 
@@ -47,8 +45,7 @@ GET
 
 
 
-
- - Removed auto generated
+<!-- Removed auto generated -->
 <!-- --USER-- -->
 <!-- POST
 -create users param(name|max:255,  email|email,  email_verified_at|timestamp,  password,  remember_token|Url?,  created_at|timestamp,  updated_at|timestamp)  -->
